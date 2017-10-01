@@ -1,0 +1,33 @@
+# big mods timeout so we need to repeat DL few times.
+
+LOGIN=steamlogin
+PASSWD=steampasswd
+
+echo
+echo --------------------------------------------- Downloading CBA A3 ---------------------------------------------
+./steamcmd.sh +login ${LOGIN} ${PASSWD} +force_install_dir /home/server/arma3/install/ +workshop_download_item 107410 450814997 validate +quit
+echo
+echo
+echo --------------------------------------------- Downloading Advance Towing ---------------------------------------------
+./steamcmd.sh +login ${LOGIN} ${PASSWD} +force_install_dir /home/server/arma3/install/ +workshop_download_item 107410 639837898 validate +quit
+echo
+echo
+echo --------------------------------------------- Downloading CUP Terrains - Core ---------------------------------------------
+./steamcmd.sh +login ${LOGIN} ${PASSWD} +force_install_dir /home/server/arma3/install/ +workshop_download_item 107410 583496184 validate +quit
+./steamcmd.sh +login ${LOGIN} ${PASSWD} +force_install_dir /home/server/arma3/install/ +workshop_download_item 107410 583496184 validate +quit
+./steamcmd.sh +login ${LOGIN} ${PASSWD} +force_install_dir /home/server/arma3/install/ +workshop_download_item 107410 583496184 validate +quit
+echo
+echo
+echo --------------------------------------------- Downloading CUP Terrains - Maps ---------------------------------------------
+./steamcmd.sh +login ${LOGIN} ${PASSWD} +force_install_dir /home/server/arma3/install/ +workshop_download_item 107410 583544987 validate +quit
+./steamcmd.sh +login ${LOGIN} ${PASSWD} +force_install_dir /home/server/arma3/install/ +workshop_download_item 107410 583544987 validate +quit
+./steamcmd.sh +login ${LOGIN} ${PASSWD} +force_install_dir /home/server/arma3/install/ +workshop_download_item 107410 583544987 validate +quit
+echo
+echo
+echo --------------------------------------------- Downloading IFA3 ---------------------------------------------
+./steamcmd.sh +login ${LOGIN} ${PASSWD} +force_install_dir /home/server/arma3/install/ +workshop_download_item 107410 660460283 validate +quit
+./steamcmd.sh +login ${LOGIN} ${PASSWD} +force_install_dir /home/server/arma3/install/ +workshop_download_item 107410 660460283 validate +quit
+./steamcmd.sh +login ${LOGIN} ${PASSWD} +force_install_dir /home/server/arma3/install/ +workshop_download_item 107410 660460283 validate +quit
+echo
+echo
+echo --------------------------------------------- All Done ---------------------------------------------

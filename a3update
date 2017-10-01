@@ -1,0 +1,3 @@
+#!/bin/bash
+
+/home/server/steamcmd/steamcmd.sh +runscript /home/server/arma3/a3update.txt
