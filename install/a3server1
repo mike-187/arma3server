@@ -38,7 +38,6 @@ ulimit -c 1000000
 
 case "$1" in
 
-
 start)
 # check if there is a server running or not
 ps ax | grep ${SERVER} | grep ${PORT}  > /dev/null
